@@ -1,5 +1,5 @@
-# EC601-Mood-Detect
-## Copyright 2017 Zhonghao Guo gzh1994@bu.edu
+## EC601-Mood-Detect
+### Copyright 2017 Zhonghao Guo gzh1994@bu.edu
 Oct.10
 
 What I've done is a de-noise processing which efficiently eliminates low-frequency environment noise.
