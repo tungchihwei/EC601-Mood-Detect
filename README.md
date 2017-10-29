@@ -5,5 +5,5 @@ Team member: Chih Wei Tung, Shanshan Zhao, Weixuan Jiang, Zhonghao Guo
 
 Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
 
-See what we've done in personal branches!!!
+See what we've done in personal branches and Trello board.
 
