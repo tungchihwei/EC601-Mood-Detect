@@ -11,5 +11,5 @@ Pitch extraction using toolbox "voicebox" in MATLAB. Get mean, median, maximum, 
 
 Nov.9
 
-A one-click pitch extraction and MFCC extraction implemented by .m file. Data sets are produced at the same time in form of sheet(xls).
+A one-click pitch extraction and MFCC extraction implemented by .m file. Data sets are produced in format .csv
 
