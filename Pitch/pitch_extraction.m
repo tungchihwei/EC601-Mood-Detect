@@ -1,6 +1,6 @@
 clear all
 clc
-folder = 'd:\';
+folder = 'd:\sample\';
 files = dir([folder '*.wav']);
 pitch = cell(length(files),13);
 for i=1:length(files)
@@ -26,7 +26,7 @@ for i=1:length(files)
     fx_energy_avg = fx_energy_avg(1) + fx_energy_avg(2);
     speaking_rate = length(fx)/length(fx_adjust);
     
-    pitch(i,1) = cellstr(file);
+    pitch(i,1) = cellstr(files(i).name);
     pitch(i,2) = num2cell(fx_mean);
     pitch(i,3) = num2cell(fx_max);
     pitch(i,4) = num2cell(fx_min);
@@ -40,7 +40,7 @@ for i=1:length(files)
     pitch(i,12) = num2cell(fx_energy_avg);
     pitch(i,13) = num2cell(speaking_rate);
 end
-xlswrite('d:\pitch.xls',pitch);
+cell2csv('d:\sample\pitch.csv',pitch);
         
     
 

@@ -1,7 +1,7 @@
 % MFCC Extraction %
 clear all
 clc
-folder = 'd:\';
+folder = 'd:\sample\';
 files = dir([folder '*.wav']);
 MFCC = cell(length(files),97);
 for i=1:length(files)
@@ -65,9 +65,9 @@ for i=1:length(files)
     end
     
     MFCC(i,2:97) = [num2cell(means) num2cell(maximum) num2cell(minimum) num2cell(variance)];
-    MFCC(i,1) = cellstr(file);
+    MFCC(i,1) = cellstr(files(i).name);
 end
-xlswrite('d:\MFCC.xls',MFCC);
+cell2csv('d:\sample\MFCC.csv',MFCC);
 
     
     
