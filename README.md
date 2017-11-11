@@ -8,8 +8,8 @@ Oct.20
 Pitch extraction using toolbox "voicebox" in MATLAB. Get mean, median, maximum, minimum, etc. Create a 10-dimensional vector. 
 
 Nov.9
-A one-click pitch extraction and MFCC extraction implemented by .m file. Data sets are produced in format .csv
+A one-click pitch extraction and MFCC extraction implemented by *.m file. Data sets are produced in format *.csv
 
 Nov.10
-100 new voice samples of "happy" and "sad" were recorded by ourselves. Then pitch and MFCC were extracted by matlab(there is still some problem when getting MFCC) and claasified by KNN algorithm. Unknown voices were classified, the accuracy......*hard to say
+100 new voice samples of "happy" and "sad" were recorded by ourselves. Then pitch and MFCC were extracted by matlab(there is still some problem when getting MFCC) and claasified by KNN algorithm. Unknown voices were classified, the accuracy......hard to say
 
