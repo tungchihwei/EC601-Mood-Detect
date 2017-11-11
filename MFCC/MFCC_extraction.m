@@ -3,7 +3,7 @@ clear all
 clc
 folder = 'd:\sample\';
 files = dir([folder '*.wav']);
-MFCC = cell(length(files),97);
+MFCC = cell(length(files),96);
 for i=1:length(files)
     file = [folder files(i).name];
     [Data,Fs] = wavread(file);
@@ -16,6 +16,7 @@ for i=1:length(files)
     end
     w = 1+6*sin(pi*[1:12]./12);
     w = w/max(w);
+    Data = Data + randn(size(Data))*1E-10;
     xx = double(Data);
     xx = filter([1-0.9375],1,xx);
     xx = enframe(xx,256,80);
@@ -64,8 +65,7 @@ for i=1:length(files)
         variance(p) = maximum(p) - minimum(p);
     end
     
-    MFCC(i,2:97) = [num2cell(means) num2cell(maximum) num2cell(minimum) num2cell(variance)];
-    MFCC(i,1) = cellstr(files(i).name);
+    MFCC(i,1:96) = [num2cell(means) num2cell(maximum) num2cell(minimum) num2cell(variance)];
 end
 cell2csv('d:\sample\MFCC.csv',MFCC);
 

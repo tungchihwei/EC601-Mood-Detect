@@ -2,7 +2,7 @@ clear all
 clc
 folder = 'd:\sample\';
 files = dir([folder '*.wav']);
-pitch = cell(length(files),13);
+pitch = cell(length(files),12);
 for i=1:length(files)
     file = [folder files(i).name];
     [Data,Fs] = wavread(file);
@@ -26,19 +26,18 @@ for i=1:length(files)
     fx_energy_avg = fx_energy_avg(1) + fx_energy_avg(2);
     speaking_rate = length(fx)/length(fx_adjust);
     
-    pitch(i,1) = cellstr(files(i).name);
-    pitch(i,2) = num2cell(fx_mean);
-    pitch(i,3) = num2cell(fx_max);
-    pitch(i,4) = num2cell(fx_min);
-    pitch(i,5) = num2cell(fx_variance);
-    pitch(i,6) = num2cell(fx_median);
-    pitch(i,7) = num2cell(fx_mean_der);
-    pitch(i,8) = num2cell(fx_max_der);
-    pitch(i,9) = num2cell(fx_min_der);
-    pitch(i,10) = num2cell(fx_variance_der);
-    pitch(i,11) = num2cell(fx_median_der);
-    pitch(i,12) = num2cell(fx_energy_avg);
-    pitch(i,13) = num2cell(speaking_rate);
+    pitch(i,1) = num2cell(fx_mean);
+    pitch(i,2) = num2cell(fx_max);
+    pitch(i,3) = num2cell(fx_min);
+    pitch(i,4) = num2cell(fx_variance);
+    pitch(i,5) = num2cell(fx_median);
+    pitch(i,6) = num2cell(fx_mean_der);
+    pitch(i,7) = num2cell(fx_max_der);
+    pitch(i,8) = num2cell(fx_min_der);
+    pitch(i,9) = num2cell(fx_variance_der);
+    pitch(i,10) = num2cell(fx_median_der);
+    pitch(i,11) = num2cell(fx_energy_avg);
+    pitch(i,12) = num2cell(speaking_rate);
 end
 cell2csv('d:\sample\pitch.csv',pitch);
         
