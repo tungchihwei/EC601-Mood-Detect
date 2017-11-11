@@ -13,3 +13,5 @@ A one-click pitch extraction and MFCC extraction implemented by *.m file. Data s
 ### Nov.10
 100 new voice samples of "happy" and "sad" were recorded by ourselves. Then pitch and MFCC were extracted by matlab(there is still some problem when getting MFCC) and claasified by KNN algorithm. Unknown voices were classified, the accuracy......hard to say
 
+### Nov.11
+Formant extraction done!!! Unknown bugs appear sometimes and I'm trying to fix them. Theoratically, now we've got three features of voice samples.  
