@@ -1,5 +1,5 @@
 # Speex Denoise
-这是一个利用Speex库在Android上消除录音噪音的Demo
+这是一个利用Speex库在Android上消除录音噪音的Demo.
 This is a demo to denoise on Android by using Speex Lib.
 
 
