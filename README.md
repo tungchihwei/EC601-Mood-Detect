@@ -15,3 +15,6 @@ A one-click pitch extraction and MFCC extraction implemented by *.m file. Data s
 
 ### Nov.11
 Formant extraction done!!! Unknown bugs appear sometimes and I'm trying to fix them. Theoratically, now we've got three features of voice samples.  
+
+### Nov.12
+An *.m file which automatically detect silent parts and voiced parts in audio files. Cut voiced parts to n cells. Later I gonna transfer them to matrix(by cell2mat), arrange them together and reshape them to 2-sec samples.
