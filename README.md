@@ -18,3 +18,6 @@ Formant extraction done!!! Unknown bugs appear sometimes and I'm trying to fix t
 
 ### Nov.12
 An *.m file which automatically detect silent parts and voiced parts in audio files. Cut voiced parts to n cells. Later I gonna transfer them to matrix(by cell2mat), arrange them together and reshape them to 2-sec samples.
+
+### Nov.16
+All pre-processing procedure done. Now unvoiced parts elemination, 2sec resizing, pitch extraction, MFCC extraction, formants extraction are all done by one-click of VSP.m. The default input/output folder is D:\sample\. Drop all raw *.wav files in and you may get 3 .csv charts( if no fault reported...).
