@@ -21,3 +21,6 @@ An *.m file which automatically detect silent parts and voiced parts in audio fi
 
 ### Nov.16
 All pre-processing procedure done. Now unvoiced parts elemination, 2sec resizing, pitch extraction, MFCC extraction, formants extraction are all done by one-click of VSP.m. The default input/output folder is D:\sample\. Drop all raw *.wav files in and you may get 3 .csv charts( if no fault reported...).
+
+### Nov.20
+Fix a bug when audio file is too short to get formants successfully. 
