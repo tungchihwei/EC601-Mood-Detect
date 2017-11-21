@@ -2,7 +2,7 @@
 %the original record
 clear 
 clc
-folder = 'd:\sample\';
+folder = 'c:\sample\';
 files = dir([folder '*.wav']);
 N = 2; %Time length when dividing voice sample
 for i=1:length(files)
@@ -10,7 +10,9 @@ for i=1:length(files)
     [Data,Fs] = detectVoiced(file);
     for j=1:length(Data)
         Value = cell2mat(Data(j));
-        if length(Value) <= 2*Fs
+        if length(Value) <= Fs
+           continue
+        elseif length(Value) <= 2*Fs
             wavwrite(Value,Fs,[folder num2str(i) '_' num2str(j) '.wav']);
         else
             num = floor(length(Value)/(N*Fs));
