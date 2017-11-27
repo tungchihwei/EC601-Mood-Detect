@@ -24,3 +24,6 @@ All pre-processing procedure done. Now unvoiced parts elemination, 2sec resizing
 
 ### Nov.20
 Fix a bug when audio file is too short to get formants successfully. 
+
+### Nov.26
+Creat a '.bat' file which autotically run 'VSP.m' in command line mode as well as exit MATLAB when all things done. Now it's possible to combine this tiny '.bat' with python code to do all work automatically.
