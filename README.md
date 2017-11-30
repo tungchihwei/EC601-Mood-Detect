@@ -27,3 +27,6 @@ Fix a bug when audio file is too short to get formants successfully.
 
 ### Nov.26
 Creat a '.bat' file which autotically run 'VSP.m' in command line mode as well as exit MATLAB when all things done. Now it's possible to combine this tiny '.bat' with python code to do all work automatically.
+
+### Nov.29
+WAV file monitor implemented by Windows Powershell. A '.ps1' script runs in background, detecting any '.wav' file uploaded to server by tomcat, triggering 'VSP.bat' in a short while. Now we don't need to start VSP.bat by hand anymore.
