@@ -11,9 +11,11 @@ clear
 clc
 run('silence_remove');
 run('pitch_extraction');
-run('MFCC_extraction');
 run('formant_extraction');
+run('MFCC_extraction');
+
 delete([folder '*.wav']);
+run('csvcombine');
 
 exit
 

@@ -1,6 +1,6 @@
 clear all
 clc
-folder = 'c:\sample\';
+folder = 'c:\sample_temp\';
 files = dir([folder '*.wav']);
 formants = cell(length(files),48);
 for i=1:length(files)
@@ -84,6 +84,6 @@ for i=1:length(files)
     end
     formants(i,:) = [num2cell(means) num2cell(maximum) num2cell(minimum) num2cell(variance)];
 end
-cell2csv('c:\sample\formants.csv',formants);
+cell2csv('c:\sample_temp\formants.csv',formants);
 
     
