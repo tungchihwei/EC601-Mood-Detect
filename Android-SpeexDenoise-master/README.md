@@ -10,3 +10,5 @@ It is very simple to demo, recording your voice by AudioRecord then it could den
 at the sencond stage, we added one more function which is uploading voice file to the server.
 
 at the third stage, we added a login function and return the detection result to doctor.
+
+the newest one is 601_app/Android-SpeexDenoise-master
