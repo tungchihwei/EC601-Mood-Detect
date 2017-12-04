@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 
-#print("woman")
 text_file = open("train.txt", "r")
 train_type = text_file.read().split(' ')
 print(len(train_type))
