@@ -30,3 +30,6 @@ Creat a '.bat' file which autotically run 'VSP.m' in command line mode as well a
 
 ### Nov.29
 WAV file monitor implemented by Windows Powershell. A '.ps1' script runs in background, detecting any '.wav' file uploaded to server by tomcat, triggering 'VSP.bat' in a short while. Now we don't need to start VSP.bat by hand anymore.
+
+### Dec.4
+In order to enable python code access to the gender information in SQL server database, I changed some code in VSP.m, silence_remove.m and csvcombine.m to attach username uploaded by tomcat to the final csv file. Then the python may seek the needed information in dataset by csv filename.
