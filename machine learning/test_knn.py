@@ -8,7 +8,7 @@ train_type = text_file.read().split(' ')
 print(len(train_type))
 csv_file = pd.read_csv("./mood_features_train.csv", header=None, sep=',', skiprows=0, dtype='float', skipinitialspace=True)
 train_data_temp = csv_file.values
-
+# mood_features_train.csv is traing data for machine learning, and train.txt is the classification of mood_features_train.csv
 
 train_data=[]
 train_line=[]
@@ -21,6 +21,7 @@ print(len(train_data))
 
 csv_file2 = pd.read_csv("./csv_all1.csv", header=None, sep=',', skiprows=0, dtype='float', skipinitialspace=True)
 test_data_temp = csv_file2.values
+# csv_all1.csv is the testing data, the result will be the mood of this data
 
 test_data=[]
 test_line=[]
