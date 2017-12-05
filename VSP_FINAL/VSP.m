@@ -16,6 +16,7 @@ run('MFCC_extraction');
 
 delete([folder '*.wav']);
 run('csvcombine');
+delete([folder_final '*.wav']);
 
 exit
 
