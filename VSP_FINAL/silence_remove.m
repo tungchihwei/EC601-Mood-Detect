@@ -11,7 +11,7 @@ for i=1:length(files)
     [Data,Fs] = detectVoiced(file);
     for j=1:length(Data)
         Value = cell2mat(Data(j));
-        if length(Value) <=1.5*Fs
+        if length(Value) <= Fs
            continue
         elseif length(Value) <= 2*Fs
             wavwrite(Value,Fs,[folder_temp num2str(i) '_' num2str(j) '.wav']);

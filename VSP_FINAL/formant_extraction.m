@@ -11,8 +11,8 @@ for i=1:length(files)
         Data = (Data(:,1)+Data(:,2))/2;
     end
     Data = filter([1 -.9375],1,Data);
-    wlen = 512;
-    inc = 256;
+    wlen = 9048;
+    inc = 4096;
     win = hamming(wlen);
     Data_filt = enframe(Data,win,inc);
     [row,column] = size(Data_filt);
