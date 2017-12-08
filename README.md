@@ -33,3 +33,6 @@ WAV file monitor implemented by Windows Powershell. A '.ps1' script runs in back
 
 ### Dec.4
 In order to enable python code access to the gender information in SQL server database, I changed some code in VSP.m, silence_remove.m and csvcombine.m to attach username uploaded by tomcat to the final csv file. Then the python may seek the needed information in dataset by csv filename.
+
+### Dec.7
+Arguments in formants.m adjusted. Now an occasionally appeared problem, when operating too many voice pieces in formants.m, was fixed.
