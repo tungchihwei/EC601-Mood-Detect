@@ -12,7 +12,7 @@
 ### Weixuan Jiang        :[@jweixuan](https://github.com/jweixuan)
     Server, Machine Learning, Android App
 
-### Zhonghao Guo         :[@guozhonghao1994](https://github.com/guozhonghao1994)
+### Zhonghao Guo     :[@guozhonghao1994](https://github.com/guozhonghao1994)
     Features extraction, Poster
 
 Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
