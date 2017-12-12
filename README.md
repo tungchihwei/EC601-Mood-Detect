@@ -9,7 +9,7 @@ Shanshan Zhao        :[@zhaoss99](https://github.com/zhaoss99)
 
 Weixuan Jiang        :[@jweixuan](https://github.com/jweixuan)
 
-Zhonghao Guo         :[@guozhonghao1994](https://github.com/guozhonghao1994)
+Zhonghao  Guo        :[@guozhonghao1994](https://github.com/guozhonghao1994)
 
 
 Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
