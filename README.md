@@ -10,7 +10,7 @@
     Recorder
  
 ### Weixuan Jiang        :[@jweixuan](https://github.com/jweixuan)
-    Server, Machine Learning, Android App
+    Server, Android App
 
 ### Zhonghao Guo:[@guozhonghao1994](https://github.com/guozhonghao1994)
     Features extraction, Voice Signal Processing
