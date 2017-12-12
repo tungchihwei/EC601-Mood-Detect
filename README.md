@@ -13,7 +13,7 @@
     Server, Machine Learning, Android App
 
 ### Zhonghao Guo:[@guozhonghao1994](https://github.com/guozhonghao1994)
-    Features extraction, Sample pre-processing
+    Features extraction, Voice Signal Processing
 
 Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
 
