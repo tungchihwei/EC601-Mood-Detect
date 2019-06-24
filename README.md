@@ -18,6 +18,5 @@ In this branch, the sample part includes the voice samples we collected for mach
 ### Zhonghao Guo:
     Features extraction, Voice Signal Processing
 
-Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
 
 ![image](https://github.com/tungchihwei/EC601-Mood-Detect/blob/master/2_Speak%20Mood.jpg)
