@@ -9,13 +9,13 @@ In this branch, the sample part includes the voice samples we collected for mach
 ### Chih-Wei Tung        :[@tungchihwei](https://github.com/tungchihwei)
     Machine Learning, Database
 
-### Shanshan Zhao        :[@zhaoss99](https://github.com/zhaoss99)
+### Shanshan Zhao        :
     Recorder
  
-### Weixuan Jiang        :[@jweixuan](https://github.com/jweixuan)
+### Weixuan Jiang        :
     Server, Android App
 
-### Zhonghao Guo:[@guozhonghao1994](https://github.com/guozhonghao1994)
+### Zhonghao Guo:
     Features extraction, Voice Signal Processing
 
 Trello Link: https://trello.com/b/QZmTZ7UV/ec-601-final-project
